@@ -174,3 +174,20 @@ figcaption {
 #skills span:hover {
     transform: scale(1.5);
 }
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #E06D10;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+footer a {
+    color: #2D1832;
+}
+
+footer span {
+    margin-right: .5em;
+}
