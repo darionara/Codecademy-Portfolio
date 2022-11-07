@@ -6,7 +6,7 @@ body {
     /*padding: 40px;*/
     background-color: #F7F1F8;
     color: #2D1832;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -35,27 +35,94 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 4em;
 }
 
 nav ul li {
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 2em;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #2D1832;
+    transition: color .1s ease-in-out;
 }
 
-.contact-btn {
+nav ul li a:hover {
+    color: #E06D10;
+}
+
+.contact-btn-desktop {
     border: solid 2px #E06D10;
     border-radius: 30px;
     padding: 5px;
     display: flex;
 }
-/*
+
 .mobile-hidden {
     display: none;
 }
-*/
+
+/* HERO SECTION */
+
+#hero-content {
+    text-align: center;
+}
+
+#horizontal-line {
+    position: relative;
+}
+
+#horizontal-line:before {
+    content:" ";
+    display: block;
+    height: .125em;
+    width: 3em;
+    background: #2D1832;
+    position: absolute;
+    top: .5em;
+    left: 2.5em;
+}
+
+#horizontal-line:after {
+    content:" ";
+    display: block;
+    height: .125em;
+    width: 3em;
+    background: #2D1832;
+    position: absolute;
+    top: .5em;
+    right: 2.5em;
+}
+
+#title {
+    color: #E06D10;
+}
+
+.contact-btn-mobile {
+    text-decoration: none;
+    padding: .625em;
+    border: solid 2px #E06D10;
+    border-radius: 20px;
+    color: #2D1832;
+    transition: background-color .3s ease-in-out;
+}
+
+.contact-btn-mobile:hover {
+    background-color: #E06D10;
+}
+
+#img-container {
+    margin-top: 2em;
+}
+
+#hero-img {
+    width: 18.75em;
+    height: auto;
+    border-radius: .5em;
+}
+
+/* PROJECTS SECTION */
+
+
