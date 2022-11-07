@@ -157,3 +157,20 @@ figcaption {
     transform: scale(1.2);
 }
 */
+
+/* SKILLS SECTION */
+
+#skills {
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+#skills span:not(:last-child) {
+    margin-right: .5em;
+    transition: transform .3s ease-in-out;
+}
+
+#skills span:hover {
+    transform: scale(1.5);
+}
