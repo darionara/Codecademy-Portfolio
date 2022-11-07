@@ -3,11 +3,12 @@
 }
 
 body {
-    /*padding: 40px;*/
     background-color: #F7F1F8;
     color: #2D1832;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif; 
+    margin: 0;
+    padding: 0;
 }
 
 /* HEADER */
@@ -125,4 +126,34 @@ nav ul li a:hover {
 
 /* PROJECTS SECTION */
 
+#projects {
+    text-align: center;
+    margin-top: 3em;
+    padding: 1em;
+    background-color: #46A46C;
+}
 
+.project-img img {
+    width: 18.75em;
+    height: auto;
+    border-radius: .5em;
+}
+
+.project-img {
+    border: solid 1px #2D1832;
+    border-radius: .5em;
+    padding: .5em;
+}
+
+figcaption {
+    font-weight: 700;
+}
+/* skopiować do desktopu 
+.project-img {
+    transition: transform .5s ease-in-out;
+}
+
+.project-img:hover {
+    transform: scale(1.2);
+}
+*/
