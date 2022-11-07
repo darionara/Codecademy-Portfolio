@@ -3,17 +3,59 @@
 }
 
 body {
-    padding: 40px;
+    /*padding: 40px;*/
     background-color: #F7F1F8;
+    color: #2D1832;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
 }
 
 /* HEADER */
-/* dlaczego nie widać logo? */
-#logo {
-    width: 30px;
-    height: 30px;
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
+#logo {
+    background-color: #46A46C;
+    padding: 10px;
+    border: solid 2px #E06D10;
+    border-radius: 10px;
+}
 
+nav {
+    /*display: flex;
+    justify-content: space-evenly;*/
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2D1832;
+}
+
+.contact-btn {
+    border: solid 2px #E06D10;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+}
+/*
+.mobile-hidden {
+    display: none;
+}
+*/
