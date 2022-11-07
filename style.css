@@ -122,6 +122,7 @@ nav ul li a:hover {
     width: 18.75em;
     height: auto;
     border-radius: .5em;
+    margin: 2em;
 }
 
 /* PROJECTS SECTION */
@@ -143,6 +144,7 @@ nav ul li a:hover {
     border: solid 1px #2D1832;
     border-radius: .5em;
     padding: .5em;
+    margin: 2em;
 }
 
 figcaption {
@@ -163,7 +165,7 @@ figcaption {
 #skills {
     text-align: center;
     margin-top: 1em;
-    padding: 1em;
+    padding: 2em;
 }
 
 #skills span:not(:last-child) {
@@ -181,7 +183,7 @@ footer {
     text-align: center;
     background-color: #E06D10;
     margin-top: 1em;
-    padding: 1em;
+    padding: 2em;
 }
 
 footer a {
@@ -191,3 +193,4 @@ footer a {
 footer span {
     margin-right: .5em;
 }
+
