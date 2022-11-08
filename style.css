@@ -93,6 +93,37 @@ nav ul li a:hover {
         margin: 0;
     }
     
+    .square {
+        border-radius: .5em;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .square-1 {
+        width: 10em;
+        height: 10em;
+        background-color: #E06D10;
+        top: 20em;
+        right: 12em;
+    }
+    
+    .square-2 {
+        width: 3em;
+        height: 3em;
+        background-color: #46A46C;
+        top: 2em;
+        left: -8em;
+        opacity: .7;
+    }
+
+    .square-3 {
+        width: 10em;
+        height: 20em;
+        background-color: #2D1832;
+        top: -2em;
+        right: -3em;
+        opacity: .5;
+    }
 }
 
 /* HERO SECTION */
@@ -158,20 +189,6 @@ h1 {
     width: 18.75em;
     height: auto;
     border-radius: .5em;
-}
-
-.square {
-    border-radius: .5em;
-    position: absolute;
-    z-index: -1;
-}
-
-.square-1 {
-    width: 10em;
-    height: 10em;
-    background-color: #E06D10;
-    top: 20em;
-    right: 12em;
 }
 
 /* PROJECTS SECTION */
