@@ -57,7 +57,7 @@ nav ul li a:hover {
 .contact-btn-desktop {
     border: solid 2px #E06D10;
     border-radius: 30px;
-    padding: 6px;
+    padding: .5em;
     display: flex;
 }
 
@@ -79,7 +79,7 @@ nav ul li a:hover {
     }
 
     .contact-btn-desktop:hover {
-        color: #2D1832;
+        color: #F7F1F8;
         background-color: #E06D10;
     }
 
@@ -104,7 +104,7 @@ nav ul li a:hover {
         height: 10em;
         background-color: #E06D10;
         top: 20em;
-        right: 12em;
+        right: 15em;
     }
     
     .square-2 {
@@ -121,7 +121,7 @@ nav ul li a:hover {
         height: 20em;
         background-color: #2D1832;
         top: -2em;
-        right: -3em;
+        right: -1.5em;
         opacity: .5;
     }
 }
@@ -131,33 +131,6 @@ nav ul li a:hover {
 #hero {
     text-align: center;
 }
-/* jak usunąć prawą linię na desktopie?
-#horizontal-line {
-    position: relative;
-}
-
-#horizontal-line:before {
-    content:" ";
-    display: block;
-    height: .125em;
-    width: 3em;
-    background: #2D1832;
-    position: absolute;
-    top: .5em;
-    left: 2.5em;
-}
-
-#horizontal-line:after {
-    content:" ";
-    display: block;
-    height: .125em;
-    width: 3em;
-    background: #2D1832;
-    position: absolute;
-    top: .5em;
-    right: 2.5em;
-}
-*/
 
 h1 {
     font-size: 2em;
@@ -173,10 +146,11 @@ h1 {
     border: solid 2px #E06D10;
     border-radius: 20px;
     color: #2D1832;
-    transition: background-color .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .contact-btn-mobile:hover {
+    color: #F7F1F8;
     background-color: #E06D10;
 }
 
