@@ -57,7 +57,7 @@ nav ul li a:hover {
 .contact-btn-desktop {
     border: solid 2px #E06D10;
     border-radius: 30px;
-    padding: 5px;
+    padding: 6px;
     display: flex;
 }
 
@@ -65,12 +65,42 @@ nav ul li a:hover {
     display: none;
 }
 
-/* HERO SECTION */
+@media only screen and (min-width: 650px) {
+    .mobile-hidden {
+        display: flex;
+    }
 
-#hero-content {
-    text-align: center;
+    .desktop-hidden {
+        display: none;
+    }
+
+    .contact-btn-desktop {
+        transition: all .3s ease-in-out;
+    }
+
+    .contact-btn-desktop:hover {
+        color: #2D1832;
+        background-color: #E06D10;
+    }
+
+    #hero {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #hero-img {
+        margin: 0;
+    }
+    
 }
 
+/* HERO SECTION */
+
+#hero {
+    text-align: center;
+}
+/* jak usunąć prawą linię na desktopie?
 #horizontal-line {
     position: relative;
 }
@@ -96,6 +126,11 @@ nav ul li a:hover {
     top: .5em;
     right: 2.5em;
 }
+*/
+
+h1 {
+    font-size: 2em;
+}
 
 #title {
     color: #E06D10;
@@ -116,13 +151,27 @@ nav ul li a:hover {
 
 #img-container {
     margin-top: 2em;
+    position: relative;
 }
 
 #hero-img {
     width: 18.75em;
     height: auto;
     border-radius: .5em;
-    margin: 2em;
+}
+
+.square {
+    border-radius: .5em;
+    position: absolute;
+    z-index: -1;
+}
+
+.square-1 {
+    width: 10em;
+    height: 10em;
+    background-color: #E06D10;
+    top: 20em;
+    right: 12em;
 }
 
 /* PROJECTS SECTION */
