@@ -100,6 +100,7 @@ nav ul li a:not(:last-child):hover {
         background-color: #E06D10;
         top: 20em;
         right: 15em;
+        opacity: .8;
     }
     
     .square-2 {
@@ -243,3 +244,39 @@ footer span {
     margin-right: .5em;
 }
 
+/* CONTACT PAGE */
+
+.body-contact {
+    background-color: #46A46C;
+    color: #F7F1F8;
+}
+
+.main-contact {
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 2em;
+}
+
+.container div {
+    max-width: 15em;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 780px) {  
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container div {
+    margin-right: 1em;
+}
+}
