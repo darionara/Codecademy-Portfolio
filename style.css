@@ -27,8 +27,6 @@ header {
 }
 
 nav {
-    /*display: flex;
-    justify-content: space-evenly;*/
     width: 100%;
 }
 
@@ -50,15 +48,21 @@ nav ul li a {
     transition: color .1s ease-in-out;
 }
 
-nav ul li a:hover {
+nav ul li a:not(:last-child):hover {
     color: #E06D10;
 }
 
 .contact-btn-desktop {
-    border: solid 2px #E06D10;
     border-radius: 30px;
-    padding: .5em;
+    padding: .6em;
     display: flex;
+    background-color: #E06D10;
+    color: #F7F1F8;
+    transition: opacity .3s ease-in-out;
+}
+
+.contact-btn-desktop:hover {
+    opacity: .8;
 }
 
 .mobile-hidden {
@@ -72,15 +76,6 @@ nav ul li a:hover {
 
     .desktop-hidden {
         display: none;
-    }
-
-    .contact-btn-desktop {
-        transition: all .3s ease-in-out;
-    }
-
-    .contact-btn-desktop:hover {
-        color: #F7F1F8;
-        background-color: #E06D10;
     }
 
     #hero {
@@ -140,18 +135,21 @@ h1 {
     color: #E06D10;
 }
 
+#hero p {
+    padding: 1em;
+}
+
 .contact-btn-mobile {
     text-decoration: none;
     padding: .625em;
-    border: solid 2px #E06D10;
     border-radius: 20px;
-    color: #2D1832;
-    transition: all .3s ease-in-out;
+    background-color: #E06D10;
+    color: #F7F1F8;
+    transition: opacity .3s ease-in-out;
 }
 
 .contact-btn-mobile:hover {
-    color: #F7F1F8;
-    background-color: #E06D10;
+    opacity: .8;
 }
 
 #img-container {
@@ -190,15 +188,23 @@ h1 {
 figcaption {
     font-weight: 700;
 }
-/* skopiować do desktopu 
-.project-img {
-    transition: transform .5s ease-in-out;
-}
 
-.project-img:hover {
-    transform: scale(1.2);
+@media only screen and (min-width: 860px) {
+
+    #projects div {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .project-img {
+        transition: transform .5s ease-in-out;
+    }
+
+    .project-img:hover {
+        transform: scale(1.2);
+    }
 }
-*/
 
 /* SKILLS SECTION */
 
@@ -210,6 +216,9 @@ figcaption {
 
 #skills span:not(:last-child) {
     margin-right: .5em;
+}
+
+#skills span {
     transition: transform .3s ease-in-out;
 }
 
