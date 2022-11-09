@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/brands.css">
     <link rel="stylesheet" href="assets/css/solid.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap">
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -25,17 +25,33 @@
           </li>
         </ul>
       </nav>
+      <button class="back-to-top hidden">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="back-to-top-icon"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M7 11l5-5m0 0l5 5m-5-5v12"
+        />
+      </svg>
+      </button>
       </header>
       <main>
       <section id="hero">
         <div class="hero-content">
-          <h2 id="horizontal-line">Hello, I'm Daria</h2>
-          <h1>I am a <span id="title">Frontend Developer</span></h1>
+          <h2>Hello, I'm Daria</h2>
+          <h1>I am a <span class="title">Frontend Developer</span></h1>
           <p>Psst are you looking for a frontend developer? <br>Let's shake hands with me.</p>
           <a href="contact.html" class="desktop-hidden contact-btn-mobile">Contact me</a>
         </div>
-        <div id="img-container">
-          <img src="./images/hero.JPG" alt="hero photo" id="hero-img">
+        <div class="img-container">
+          <img src="./images/hero.JPG" alt="hero photo" class="hero-img">
           <div class="square square-1"></div>
           <div class="square square-2"></div>
           <div class="square square-3"></div>
