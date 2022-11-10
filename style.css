@@ -176,24 +176,6 @@ h1 {
     background-image: url(./images/project-3.JPG);
 }
 
-/*
-.project-img {
-    border: solid 1px #2D1832;
-    border-radius: .5em;
-    padding: .5em;
-    margin: 2em;
-}
-
-.project-img img {
-    width: 100%;
-    height: auto;
-    border-radius: .5em;
-}
-
-figcaption {
-    font-weight: 700;
-}
-*/
 /* SKILLS SECTION */
 
 #skills {
