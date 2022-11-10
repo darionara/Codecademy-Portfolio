@@ -59,6 +59,7 @@ nav ul li:not(:last-child) a:hover {
     background-color: #E06D10;
     color: #F7F1F8;
     transition: opacity .3s ease-in-out;
+    line-height: 1.2;
 }
 
 .contact-btn-desktop:hover {
@@ -76,7 +77,8 @@ nav ul li:not(:last-child) a:hover {
     bottom: 2em;
     border-radius: 100%;
     background: #2D1832;
-    padding: .5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.23em;
     border: none;
     cursor: pointer;
     opacity: 1;
@@ -267,26 +269,14 @@ footer span {
         opacity: .5;
     }
 
-    #projects div {
+    .project-container {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-
-    .project-img img {
-        max-height: 12em;
-        max-width: 20em;
-    }
 }
 
 @media only screen and (min-width: 860px) {
-
-    #projects div {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
     .project-img {
         transition: transform .5s ease-in-out;
     }
