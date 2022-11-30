@@ -27,6 +27,7 @@ header {
 
 #logo {
     background-color: #46A46C;
+    color: #F7F1F8;
     padding: 10px;
     border: solid 2px #E06D10;
     border-radius: 10px;
@@ -324,7 +325,6 @@ footer span {
 
 .container div:hover {
     background-color: #E06D10;
-    cursor: pointer;
 }
 
 .container div span:first-child {
