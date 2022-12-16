@@ -38,4 +38,16 @@ const goToTop = () => {
 
 backToTopButton.addEventListener('click', goToTop);
 
+/* I want to move to my sections in a smooth way so when clicking on 
+anchors (#) in the nav the default instant scrool to my sections is 
+now changed to smooth.
+*/
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
