@@ -26,10 +26,10 @@ header {
 }
 
 #logo {
-    background-color: #46A46C;
+    background-color: #659779;
     color: #F7F1F8;
     padding: 10px;
-    border: solid 2px #E06D10;
+    border: solid 2px #bd6410;
     border-radius: 10px;
 }
 
@@ -56,14 +56,14 @@ nav ul li a {
 }
 
 nav ul li:not(:last-child) a:hover {
-    color: #E06D10;
+    color: #bd6410;
 }
 
 .contact-btn-desktop {
     border-radius: 30px;
     padding: .6em;
     display: flex;
-    background-color: #E06D10;
+    background-color: #bd6410;
     color: #F7F1F8;
     transition: opacity .3s ease-in-out;
     line-height: 1.2;
@@ -101,7 +101,7 @@ nav ul li:not(:last-child) a:hover {
 .back-to-top-icon {
     width: 1.5em;
     height: 1.5em;
-    color: #E06D10;
+    color: #bd6410;
   }
 
 /* HERO SECTION */
@@ -115,7 +115,7 @@ h1 {
 }
 
 .title {
-    color: #E06D10;
+    color: #bd6410;
 }
 
 #hero p {
@@ -126,7 +126,7 @@ h1 {
     text-decoration: none;
     padding: .625em;
     border-radius: 20px;
-    background-color: #E06D10;
+    background-color: #bd6410;
     color: #F7F1F8;
     transition: opacity .3s ease-in-out;
 }
@@ -152,7 +152,7 @@ h1 {
     text-align: center;
     margin-top: 6em;
     padding: 1em;
-    background-color: #46A46C;
+    background-color: #659779;
 }
 
 /*#projects div*/
@@ -209,7 +209,7 @@ h1 {
 
 footer {
     text-align: center;
-    background-color: #E06D10;
+    background-color: #bd6410;
     margin-top: 1em;
     padding: 2em;
 }
@@ -252,7 +252,7 @@ footer span {
     .square-1 {
         width: 10em;
         height: 10em;
-        background-color: #E06D10;
+        background-color: #bd6410;
         top: 20em;
         right: 15em;
         opacity: .8;
@@ -261,7 +261,7 @@ footer span {
     .square-2 {
         width: 3em;
         height: 3em;
-        background-color: #46A46C;
+        background-color: #659779;
         top: 2em;
         left: -8em;
         opacity: .7;
@@ -270,7 +270,7 @@ footer span {
     .square-3 {
         width: 10em;
         height: 20em;
-        background-color: #2D1832;
+        background-color: #bbc4e2;
         top: -2em;
         right: -1.5em;
         opacity: .5;
@@ -297,7 +297,7 @@ footer span {
 /* CONTACT PAGE */
 
 .body-contact {
-    background-color: #46A46C;
+    background-color: #659779;
     color: #F7F1F8;
 }
 
@@ -324,7 +324,7 @@ footer span {
 }
 
 .container div:hover {
-    background-color: #E06D10;
+    background-color: #bd8010;
 }
 
 .container div span:first-child {
